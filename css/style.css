@@ -1,0 +1,260 @@
+*:focus {
+    outline: 0 !important;
+}
+
+.sfb{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    /* font-size: x-large; */
+    color: rgb(55, 55, 55);
+}
+
+.sf{
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    /* font-size: small; */
+    color: rgb(177, 177, 177);   
+}
+
+.btnback{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    font-size: xx-large;
+    color: rgb(55, 55, 55);
+}
+
+input[type=text] {
+    width: 80%;
+    height: auto;
+    color:rgb(102, 91, 148) ;
+    border: none;
+    border-bottom: 1px solid dimgray;
+}
+
+input[type=password] {
+    width: 80%;
+    height: auto;
+    color:rgb(102, 91, 148) ;
+    border: none;
+    border-bottom: 1px solid dimgray;
+}
+
+.btnlogin {background-image: linear-gradient(to right,#6610f2 40%, #6f42c1 60%)}
+.btnlogin {
+   /* margin: 10px;*/
+   padding: 8px 45px;
+   width: 45%;
+   height: auto;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   border: none;
+   /* display: block; */
+}
+
+.btnlogin:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+}
+
+.btnsignup{
+    padding: 6px 43px;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: #6610f2;            
+    border-radius: 10px;
+    border: 2px solid #6610f2;
+    background: white;
+    /* display: block; */
+}
+
+.btnsignup:hover {
+    background: #6f42c1; 
+    border: 2px solid #6f42c1;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+}
+
+.responsivebtn{
+    width: 100%;
+    height: auto;
+}
+
+.fpwd{
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    color:rgb(102, 91, 148) ;
+    text-decoration: none;
+}
+
+.sfsm{
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    color: rgb(177, 177, 177);  
+}
+
+.mg{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.mgl{
+    margin-left: 30px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container2{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 280px){
+    .responsivep{
+        width: 80%;
+        height: auto;
+    }
+
+    .responsive{
+        display: none;
+    }
+
+    .web{
+        display: none;
+    }
+
+    .btnlogin{
+        width: 75%;
+        height: auto;
+    }
+
+    .btnsignup{
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 760px){
+    .responsive{
+        width: 40%;
+        height: auto;
+    }
+
+    .btnlogin{
+        width: 80%;
+        height: auto;
+    }
+
+    .btnsignup{
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .responsive{
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+
+    .responsivep{
+        display: none;
+    }
+
+    .web{
+        display: block;
+    }
+
+    .phone{
+        display: none;
+    }
+
+    .btnlogin{
+        width: 40%;
+        height: auto;
+    }
+
+    .btnsignup{
+        width: 40%;
+        height: auto;
+    }
+
+    .mg{
+        text-align: center;
+    }
+
+    .mgl{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .responsive{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .responsivep{
+        display: none;
+    }
+
+    .btnlogin{
+        width: 40%;
+        height: auto;
+    }
+
+    .web{
+        display: block;
+    }
+
+    .phone{
+        display: none;
+    }
+
+    .btnsignup{
+        width: 40%;
+        height: auto;
+    }
+
+    input[type=text] {
+        width: 60%;
+        height: auto;
+    }
+
+    input[type=password] {
+        width: 60%;
+        height: auto;
+    }
+
+    .mg{
+        text-align: center;
+    }
+
+    .mgl{
+        text-align: center;
+    }
+}
